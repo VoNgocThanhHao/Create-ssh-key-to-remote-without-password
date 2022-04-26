@@ -37,6 +37,10 @@ Edit this lines:
         PreferredAuthentications publickey
         IdentityFile "<PATH_PRIVATE_KEY>"
 
+The last
+
+    sudo chmod 600 <PATH_PRIVATE_KEY>
+
 And now, we can ssh to server without password. Like this
 
 ![](https://i.imgur.com/mH21vTF.png)
